@@ -1,0 +1,35 @@
+{
+    "name": "Chrome Extension 1",
+    "description": "Our first Chrome extension built at Ada Tech School.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "author" : {
+        "author 1": "Thibaut Champenois",
+        "author 2": "Ana Paula Dutra Azevedo",
+        "author 3": "Justine Rougeulle"
+    },
+   
+    "host_permissions": ["<all_urls>"],
+    "permissions": [
+        "tabs",
+        "activeTab", 
+        "scripting", 
+        "storage"
+    ],
+    
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "action": {
+        "default_title": "Chrome Extension 1",
+        "default_popup": "popup.html",
+        "default_icon": {"128": "images/icon_128.png"}
+    },
+
+    "icons": {
+        "16": "images/icon_16.png",
+        "48": "images/icon_48.png",
+        "128": "images/icon_128.png"
+    }
+}

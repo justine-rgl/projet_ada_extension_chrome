@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="popup_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <title>Chrome Extension 1</title>
+  </head>
+  
+  <body>
+    <div class="panel">
+
+        <h1>🚀 Bienvenue !</h1>
+
+        <p>Gérez vos options de page ci-dessous pour optimiser la lisibilité de vos contenus :</p>
+        
+        <div class="panel-item">
+          <div>Mode sombre</div>
+          <div>
+            <label class="toggle">
+                <input type="checkbox" class="toggle-checkbox">
+                <div class="toggle-input"></div>
+              </label>
+          </div>
+        </div>
+
+        <div class="panel-item">
+            <div>Agrandir la police</div>
+            <div>
+              <!-- <button id="decrease" class="decrease">−</button> -->
+              <button id="increase" class="increase">+</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="popup_script.js"></script>
+
+    </body>
+
+</html>
