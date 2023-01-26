@@ -20,9 +20,7 @@ chrome.storage.local.onChanged.addListener((changes, local) => {
         if (result.toggle == true) {
         function appOn() {
             document.querySelector("html").style.filter = "invert(1) hue-rotate(180deg)";
-        
             let media = document.querySelectorAll("img, picture, video");
-        
             media.forEach((mediaItem) => {
             mediaItem.style.filter = "invert(1) hue-rotate(180deg)";
             })
@@ -32,9 +30,7 @@ chrome.storage.local.onChanged.addListener((changes, local) => {
         } else {
         function appOff() {
             document.querySelector("html").style.filter = "invert(0) hue-rotate(0deg)";
-        
             let media = document.querySelectorAll("img, picture, video");
-        
             media.forEach((mediaItem) => {
             mediaItem.style.filter = "invert(0) hue-rotate(0deg)";
             })

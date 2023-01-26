@@ -1,6 +1,6 @@
 {
-    "name": "Chrome Extension 1",
-    "description": "Our first Chrome extension built at Ada Tech School.",
+    "name": "ChromeAccess",
+    "description": "A Chrome extension for accessibility: dark mode, font size.",
     "version": "0.1",
     "manifest_version": 3,
     "author" : {
@@ -22,7 +22,7 @@
     },
 
     "action": {
-        "default_title": "Chrome Extension 1",
+        "default_title": "ChromeAccess",
         "default_popup": "popup.html",
         "default_icon": {"128": "images/icon_128.png"}
     },
