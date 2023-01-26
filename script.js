@@ -2,7 +2,6 @@
 chrome.storage.local.onChanged.addListener((changes, local) => {
     chrome.storage.local.get('decrease').then((result) => {
         if (result.decrease == true) {
-            console.log("result.decrease")
             decreaseTextSize()
             chrome.storage.local.set({'decrease': false})  
         }

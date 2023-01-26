@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function (){
     function onclickToggle() {
     chrome.storage.local.get(["toggle"]).then((result) => {
         if(result.toggle == false) {
-            console.log("COUCOU IF")
             function appOn() {
                 document.querySelector("html").style.filter = "invert(1) hue-rotate(180deg)";
                 let media = document.querySelectorAll("img, picture, video");
@@ -31,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function (){
         }
 
         else {
-            console.log("COUCOU ELSE")
              function appOff() {
                 document.querySelector("html").style.filter = "invert(0) hue-rotate(0deg)";
                 let media = document.querySelectorAll("img, picture, video");
