@@ -30,4 +30,8 @@ Pistes d'amélioration
 
 Photo du projet 
 ---------------
-<img width="277" alt="Capture d’écran 2023-03-17 à 16 40 56" src="https://user-images.githubusercontent.com/115532914/229106717-2decf80e-6dce-41d8-931f-882da4919e26.png">
+Light mode :
+<img width="1437" alt="extension_2" src="https://user-images.githubusercontent.com/115532914/229119654-a3fbcf7b-e033-49c4-8506-9bdeb4d7493a.png">
+
+Dark mode :
+<img width="1439" alt="extension_4" src="https://user-images.githubusercontent.com/115532914/229119765-0ae17f8a-7fca-4a15-b338-7cc25b9c0089.png">
